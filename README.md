@@ -12,8 +12,10 @@ in this readme).
 
 ## Motivation
 The goal of this project is to perform ETL process between data storage (S3 service in AWS) and spark cluster (EMR service in AWS).
+
 Data are extracted from S3, tranformed using an EMR cluster and then loaded back into S3. In this case the ETL could be considered to some extent 
 also as ELT, as the EMR cluster can be considered a data lake in which the data are loaded as they are and transformed using "schema-on-read" with Spark. 
+
 The final purpose is to tranform the two source tables into five table which use the star schema to ease possible analytical processes on 
 the transformed data.
 
