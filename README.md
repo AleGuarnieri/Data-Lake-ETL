@@ -22,7 +22,8 @@ The output tables created include one fact table and four dimensional tables.
 The source datasets are retrieved from public S3 bucket (log_data and song_data datasets) in JSON format.
 
 ## File Description 
-etl.py: contains the functions necessary to extract, tranform and load the data 
+etl.py: contains the functions necessary to extract, tranform and load the data
+
 dl.cfg: contains necessary credentials to access AWS services
 
 ## Acknowledgements
